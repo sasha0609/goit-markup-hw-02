@@ -34,16 +34,15 @@ body {
   list-style-type: none;
 }
 .address {
+  color: #434455;
   font-style: normal;
-  font-family: Roboto;
+  font-family: "Roboto", sans-serif;
   font-size: 16px;
   font-weight: 400;
   line-height: 1.5; /* 150% */
   letter-spacing: 0.02em;
-  color: #434455;
 }
 .button {
-  font-family: "Roboto", sans-serif;
   font-size: 16px;
   font-weight: 500;
   line-height: 1.5; /* 150% */
@@ -59,16 +58,16 @@ body {
   line-height: 1.5; /* 150% */
   letter-spacing: 0.32px;
 }
-.nav .link:hover,
-.nav .link:focus {
+.nav .nav-item:hover,
+.nav .nav-item:focus {
   color: #404bbf;
 }
 .address .link:focus,
 .address .link:hover {
   color: #404bbf;
 }
-.hero-section .button:hover,
-.hero-section .button:focus {
+.button:hover,
+.button:focus {
   color: #404bbf;
   cursor: pointer;
 }
@@ -136,7 +135,7 @@ body {
   text-align: center;
   color: #2e2f42;
 }
-.list-portfolio-item {
+.section-portfolio {
   background-color: #ffffff;
 }
 .products {
