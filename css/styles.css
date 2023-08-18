@@ -71,8 +71,8 @@ body {
 .address .link:hover {
   color: #404bbf;
 }
-.hero-section .button:hover,
-.hero-section .button:focus {
+.hero-section .button:focus,
+.hero-section .button:hover {
   color: #404bbf;
   cursor: pointer;
 }
@@ -140,7 +140,7 @@ body {
   text-align: center;
   color: #2e2f42;
 }
-.list-portfolio {
+.list-portfolio-item {
   background-color: #ffffff;
 }
 .products {
