@@ -43,6 +43,7 @@ body {
   letter-spacing: 0.02em;
 }
 .button {
+  font-family: "Roboto", sans-serif;
   font-size: 16px;
   font-weight: 500;
   line-height: 1.5; /* 150% */
@@ -57,9 +58,13 @@ body {
   font-weight: 500;
   line-height: 1.5; /* 150% */
   letter-spacing: 0.32px;
+  text-decoration: none;
 }
-.nav .nav-item:hover,
-.nav .nav-item:focus {
+.nav-list {
+  list-style-type: none;
+}
+.nav .link:hover,
+.nav .link:focus {
   color: #404bbf;
 }
 .address .link:focus,
