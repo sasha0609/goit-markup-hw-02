@@ -74,7 +74,7 @@ body {
 }
 .hero-section .button:focus,
 .hero-section .button:hover {
-  color: #404bbf;
+  background-color: #404bbf;
   cursor: pointer;
 }
 .hero-section {
