@@ -18,7 +18,7 @@ body {
   letter-spacing: 0.54px;
   text-transform: uppercase;
   text-decoration: none;
-  color: #404bbf;
+  color: #4d5ae5;
 }
 .part-of-logo {
   color: #2e2f42;
@@ -42,12 +42,6 @@ body {
   letter-spacing: 0.02em;
   color: #434455;
 }
-.address .link:focus,
-.nav:hover,
-.address .link:hover {
-  color: #404bbf;
-}
-
 .button {
   font-family: "Roboto", sans-serif;
   font-size: 16px;
@@ -57,8 +51,13 @@ body {
   background-color: #4d5ae5;
   color: #ffffff;
 }
-.button:hover,
-.button:focus {
+.address .link:focus,
+.nav:hover,
+.address .link:hover {
+  color: #404bbf;
+}
+.hero-section .button:hover,
+.hero-section .button:focus {
   color: #404bbf;
   cursor: pointer;
 }
@@ -114,6 +113,7 @@ body {
   font-family: "Roboto", sans-serif;
   line-height: 1.5; /* 150% */
   letter-spacing: 0.32px;
+  background-color: #ffffff;
 }
 .title-portfolio {
   font-family: "Roboto", sans-serif;
@@ -124,6 +124,9 @@ body {
   text-transform: capitalize;
   text-align: center;
   color: #2e2f42;
+}
+.list-portfolio-item {
+  background-color: #ffffff;
 }
 .products {
   font-family: "Roboto", sans-serif;
@@ -146,7 +149,7 @@ body {
   font-family: "Raleway", sans-serif;
   font-size: 18px;
   font-weight: 700;
-  line-height: 1.16; /* 116.667% */
+  line-height: 1.17; /* 116.667% */
   letter-spacing: 0.54px;
   text-transform: uppercase;
   text-decoration: none;
@@ -156,7 +159,7 @@ body {
   font-family: "Raleway", sans-serif;
   font-size: 18px;
   font-weight: 700;
-  line-height: 1.16; /* 116.667% */
+  line-height: 1.17; /* 116.667% */
   letter-spacing: 0.54px;
   text-transform: uppercase;
 }
