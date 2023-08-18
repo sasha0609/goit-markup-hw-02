@@ -5,7 +5,7 @@ body {
 }
 .link {
   text-decoration: none;
-  color: #2e2f42;
+  color: #434455;
   font-weight: 500;
   line-height: 1.5;
   letter-spacing: 0.02em;
@@ -140,6 +140,7 @@ body {
   text-align: center;
   color: #2e2f42;
 }
+.section-portfolio,
 .list-portfolio-item {
   background-color: #ffffff;
 }
