@@ -34,13 +34,13 @@ body {
   list-style-type: none;
 }
 .address {
-  color: #434455;
   font-style: normal;
   font-family: "Roboto", sans-serif;
   font-size: 16px;
   font-weight: 400;
   line-height: 1.5; /* 150% */
   letter-spacing: 0.02em;
+  color: #434455;
 }
 .button {
   font-family: "Roboto", sans-serif;
@@ -53,7 +53,7 @@ body {
 }
 .nav {
   font-family: "Roboto", sans-serif;
-  color: #2e2f42;
+  color: #434455;
   font-size: 16px;
   font-weight: 500;
   line-height: 1.5; /* 150% */
@@ -71,8 +71,8 @@ body {
 .address .link:hover {
   color: #404bbf;
 }
-.button:hover,
-.button:focus {
+.hero-section .button:hover,
+.hero-section .button:focus {
   color: #404bbf;
   cursor: pointer;
 }
@@ -140,7 +140,7 @@ body {
   text-align: center;
   color: #2e2f42;
 }
-.section-portfolio {
+.list-portfolio {
   background-color: #ffffff;
 }
 .products {
