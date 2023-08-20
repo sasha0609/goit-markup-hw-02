@@ -40,9 +40,9 @@ body {
   color: #2e2f42;
 }
 .link-address {
-  color: #2e2f42;
+  color: #434455;
   font-weight: 400;
-  line-height: 24px; /* 150% */
+  line-height: 1.5; /* 150% */
   letter-spacing: 0.32px;
 }
 .button {
@@ -70,8 +70,8 @@ body {
 .nav .link:focus {
   color: #404bbf;
 }
-.address .link:focus,
-.address .link:hover {
+.address .link-address:focus,
+.address .link-address:hover {
   color: #404bbf;
 }
 .hero-section .button:focus,
