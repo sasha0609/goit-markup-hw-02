@@ -38,6 +38,12 @@ body {
   font-family: "Roboto", sans-serif;
   font-size: 16px;
 }
+.link-address {
+  color: #2e2f42;
+  font-weight: 400;
+  line-height: 24px; /* 150% */
+  letter-spacing: 0.32px;
+}
 .button {
   font-family: "Roboto", sans-serif;
   font-size: 16px;
@@ -136,7 +142,7 @@ body {
   text-align: center;
   color: #2e2f42;
 }
-.list-portfolio-item {
+.portfolio-item {
   background-color: #ffffff;
 }
 .products {
