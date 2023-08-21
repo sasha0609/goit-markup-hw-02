@@ -66,8 +66,8 @@ body {
 .nav-list {
   list-style-type: none;
 }
-.nav .link:hover,
-.nav .link:focus {
+.nav-list .link:hover,
+.nav-list .link:focus {
   color: #404bbf;
 }
 .address .link-address:focus,
