@@ -66,9 +66,12 @@ body {
 .nav-list {
   list-style-type: none;
 }
-.nav-list .link:hover,
-.nav-list .link:focus {
+.nav-list .link-nav-list:hover,
+.nav-list .link-nav-list:focus {
   color: #404bbf;
+}
+.link-nav-list {
+  color: #2e2f42;
 }
 .address .link-address:focus,
 .address .link-address:hover {
