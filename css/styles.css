@@ -115,6 +115,9 @@ li {
 .section-team {
   background-color: #f4f4fd;
 }
+.item-list-team {
+  background-color: #ffffff;
+}
 .title-our-team {
   font-family: "Roboto", sans-serif;
   font-size: 36px;
